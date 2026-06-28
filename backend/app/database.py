@@ -6,7 +6,6 @@ from config import settings
 engine = create_engine(
     settings.DATABASE_URL_psycopg,
     echo=True,
-    connect_args={"check_same_thread": False}
 )
 
 # обрабатывает запросы в базу данных

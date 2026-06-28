@@ -1,4 +1,4 @@
-from sqlalchemy.orm import Session, joinedload
+from sqlalchemy.orm import Session 
 from typing import List
 from backend.app.models.user import User
 from backend.app.schemas.user import UserCreate
