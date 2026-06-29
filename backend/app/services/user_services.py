@@ -1,6 +1,6 @@
 from sqlalchemy.orm import Session
-from backend.app.schemas.user import UserResponse, UserCreate
-from backend.app.repository.user_repository import UserRepository
+from ..schemas.user import UserResponse, UserCreate
+from ..repository.user_repository import UserRepository
 from fastapi import HTTPException, status
 from typing import List
 
